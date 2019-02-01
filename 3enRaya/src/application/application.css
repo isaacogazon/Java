@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#hola {
+	-fx-padding: 0 0 0 15;
+	-fx-font-size: 15pt;
+    -fx-font-family: "Channel";
+	-fx-text-fill: blue;
+    -fx-opacity: 0.6;
+}
+#root{
+	-fx-padding: 10 10 10 10;
+}
+#ganax {
+	-fx-padding: 0 0 0 15;
+	-fx-font-size: 15pt;
+    -fx-font-family: "Channel";
+	-fx-text-fill: blue;
+    -fx-opacity: 0.6;
+}
+#ganao {
+	-fx-padding: 0 0 0 15;
+	-fx-font-size: 15pt;
+    -fx-font-family: "Channel";
+	-fx-text-fill: blue;
+    -fx-opacity: 0.6;
+}
