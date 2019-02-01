@@ -1,0 +1,78 @@
+#pantalla {
+    -fx-font-family:Quicksand; 
+    -fx-font-size: 18.0; 
+    -fx-padding: 4.0,4.0,4.0,4.0;
+    -fx-border-color: blue; 
+    -fx-border-width: 2.0; 
+	-fx-background-color:white;
+	-fx-text-fill: #000ADE;
+}
+#borde {
+	-fx-padding: 4.0,4.0,4.0,4.0;
+	-fx-border-color: transparent;
+	-fx-border-width: 3.0; 
+}
+#naranja {
+	-fx-background-color: orange; 
+	-fx-border: none;  
+	-fx-color: black;  
+	-fx-padding: 15.0px 32.0px;
+	-fx-text-align: center;  
+	-fx-text-decoration: none; 
+	-fx-display: inline-block;  
+	-fx-font-size: 16.0px;
+}
+#azul {
+	-fx-background-color: blue; 
+	-fx-border: none;  
+	-fx-color: black;  
+	-fx-padding: 15.0px 32.0px;
+	-fx-text-align: center;  
+	-fx-text-decoration: none; 
+	-fx-display: inline-block;  
+	-fx-font-size: 16.0px;
+}
+#azul:hover{
+	-fx-background-color: #01DCD2; 
+	-fx-border: none;  
+	-fx-color: black;  
+	-fx-padding: 15.0px 32.0px;
+	-fx-text-align: center;  
+	-fx-text-decoration: none; 
+	-fx-display: inline-block;  
+	-fx-font-size: 16.0px;
+}
+#naranja:hover{
+	-fx-background-color: #01DCD2; 
+	-fx-border: none;  
+	-fx-color: black;  
+	-fx-padding: 15.0px 32.0px;
+	-fx-text-align: center;  
+	-fx-text-decoration: none; 
+	-fx-display: inline-block;  
+	-fx-font-size: 16.0px;
+}
+.button {
+	-fx-background-color: #4CAF50; 
+	-fx-border: none;  
+	-fx-color: black;  
+	-fx-padding: 15.0px 32.0px;
+	-fx-text-align: center;  
+	-fx-text-decoration: none; 
+	-fx-display: inline-block;  
+	-fx-font-size: 16.0px;
+}
+.button:hover {
+	-fx-background-color: #01DCD2; 
+	-fx-border: none;  
+	-fx-color: black;  
+	-fx-padding: 15.0px 32.0px;
+	-fx-text-align: center;  
+	-fx-text-decoration: none; 
+	-fx-display: inline-block;  
+	-fx-font-size: 16.0px;
+	-fx-effect: dropshadow( gaussian, rgba(0, 255, 255, 0.4), 11, 0.6, 0.0, 0.0 );/*Éste efecto para dar luminosidad al pasar el ratón*/ 
+}
+.root {
+     -fx-background-image: url("background.jpg");
+}
